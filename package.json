@@ -1,0 +1,27 @@
+{
+  "name": "maison-azure",
+  "version": "1.0.0",
+  "description": "Luxury short-let booking platform with admin dashboard",
+  "scripts": {
+    "dev": "next dev",
+    "build": "next build",
+    "start": "next start",
+    "lint": "next lint"
+  },
+  "dependencies": {
+    "@neondatabase/serverless": "^0.9.0",
+    "bcryptjs": "^2.4.3",
+    "jsonwebtoken": "^9.0.2",
+    "next": "^14.2.35",
+    "react": "^18.2.0",
+    "react-dom": "^18.2.0"
+  },
+  "devDependencies": {
+    "@types/bcryptjs": "^2.4.6",
+    "@types/jsonwebtoken": "^9.0.6",
+    "@types/node": "^20.11.0",
+    "@types/react": "^18.2.48",
+    "typescript": "^5.3.3",
+    "ws": "^8.20.0"
+  }
+}
